@@ -1,0 +1,9 @@
+root@lamp-ubuntu-s-1vcpu-1gb-sfo3-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+18:19:31.152035 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 1573361347:1573361391, ack 1757077915, win 545, length 44
+18:19:31.152092 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 44:96, ack 1, win 545, length 52
+18:19:31.152276 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 96:268, ack 1, win 545, length 172
+18:19:31.212330 IP 198.96.84.204.57230 > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh: Flags [.], ack 268, win 16381, length 0
+18:19:42.023908 IP no-mans-land.m247.com.56679 > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.socks: Flags [S], seq 1014808173, win 65535, length 0
+18:19:43.624096 IP 166.88.75.11.11000 > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.32972: Flags [S.], seq 203349903, ack 2711289857, win 65535, options [mss 1300], length 0
+root@lamp-ubuntu-s-1vcpu-1gb-sfo3-01:~# 

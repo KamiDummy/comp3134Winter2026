@@ -1,0 +1,26 @@
+root@lamp-ubuntu-s-1vcpu-1gb-sfo3-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+18:13:01.581570 IP 198.96.84.204.57230 > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh: Flags [.], ack 1570635607, win 252, length 0
+18:13:01.584720 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 1:189, ack 0, win 545, length 188
+18:13:01.682088 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.59125 > 67.207.67.3.domain: 46068+ [1au] PTR? 40.247.23.64.in-addr.arpa. (54)
+18:13:01.691990 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.59125: 46068 NXDomain 0/1/1 (121)
+18:13:01.693000 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.47782 > 67.207.67.3.domain: 3476+ [1au] PTR? 204.84.96.198.in-addr.arpa. (55)
+18:13:01.693113 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.60978 > 67.207.67.3.domain: 6585+ [1au] PTR? 204.84.96.198.in-addr.arpa. (55)
+18:13:01.693475 IP 198.96.84.204.57230 > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh: Flags [.], ack 189, win 252, length 0
+18:13:01.818968 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.60978: 6585 NXDomain 0/1/1 (120)
+18:13:01.821525 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.47782: 3476 NXDomain 0/1/1 (120)
+18:13:07.857057 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 189:481, ack 0, win 545, length 292
+18:13:07.857731 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.45168 > 67.207.67.3.domain: 3822+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+18:13:07.857788 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.56024 > 67.207.67.3.domain: 48347+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+18:13:07.857986 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.45168: 3822 NXDomain 0/1/1 (120)
+18:13:07.857999 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.56024: 48347 NXDomain 0/1/1 (168)
+18:13:07.959731 IP 198.96.84.204.57230 > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh: Flags [.], ack 481, win 255, length 0
+18:13:11.980630 IP ec2-3-139-61-159.us-east-2.compute.amazonaws.com.60870 > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.541: Flags [S], seq 3687162599, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+18:13:14.002842 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.49403 > 67.207.67.3.domain: 32779+ [1au] PTR? 159.61.139.3.in-addr.arpa. (54)
+18:13:14.002919 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.36708 > 67.207.67.3.domain: 55909+ [1au] PTR? 159.61.139.3.in-addr.arpa. (54)
+18:13:14.003138 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 481:2061, ack 0, win 545, length 1580
+18:13:14.006350 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.36708: 55909 1/0/1 PTR ec2-3-139-61-159.us-east-2.compute.amazonaws.com. (116)
+18:13:14.006758 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 2061:2305, ack 0, win 545, length 244
+18:13:14.056724 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 2305:3021, ack 0, win 545, length 716
+18:13:14.063608 IP 198.96.84.204.57230 > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh: Flags [.], ack 2061, win 255, length 0

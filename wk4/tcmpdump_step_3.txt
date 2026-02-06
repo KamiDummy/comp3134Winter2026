@@ -1,0 +1,20 @@
+root@lamp-ubuntu-s-1vcpu-1gb-sfo3-01:~# tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+18:17:47.735658 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 1572498191:1572498299, ack 1757075879, win 545, length 108
+E...<T@.@...@..(.`T.....].k.h...P..!R...&.....DR..&...Y3r$q...I.rf..u....wpF..Hu[.....\..Z..y..'7.......(B"gm.[/.# ..#.F.UGL...\.,.z......JG.s5N....
+18:17:47.735716 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 108:144, ack 1, win 545, length 36
+E..L<U@.@...@..(.`T.....].k{h...P..!R....@/..t..We....?BJh......)[.....y.o.{
+18:17:47.735744 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 144:196, ack 1, win 545, length 52
+E..\<V@.@...@..(.`T.....].k.h...P..!R...G.Z<l.A.....o...[..1.;.v.`.jEZ.W..DV....7....gATD..8
+18:17:47.735773 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 196:264, ack 1, win 545, length 68
+E..l<W@.@...@..(.`T.....].k.h...P..!R.........0lw......I|....5..}.A&...S..a.Ae^Kkq8{..P..U...).	...c.U......
+18:17:47.735803 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 264:332, ack 1, win 545, length 68
+E..l<X@.@...@..(.`T.....].l.h...P..!R....g..&_...:J..l.......L.....Q.O0....?Q.X<.}.y..\4	.{...........;....0
+18:17:47.735829 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 332:368, ack 1, win 545, length 36
+E..L<Y@.@...@..(.`T.....].l[h...P..!R......4...&._.wto......cq*..p....M1..U.
+18:17:47.796058 IP 198.96.84.204.57230 > lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh: Flags [.], ack 368, win 8190, length 0
+E(.(Yo@.o._..`T.@..(....h...].l.P...Q)........
+18:17:47.833127 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.42466 > 67.207.67.2.domain: 36640+ [1au] PTR? 204.84.96.198.in-addr.arpa. (55)
+E..SK...@.q.@..(C.C....5.?.a. ...........204.84.96.198.in-addr.arpa.......)........
+18:17:47.833207 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.54319 > 67.207.67.2.domain: 17411+ [1au] PTR? 204.84.96.198.in-addr.arpa. (55)

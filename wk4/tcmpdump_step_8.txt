@@ -1,0 +1,10 @@
+root@lamp-ubuntu-s-1vcpu-1gb-sfo3-01:~# tcpdump -n -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+18:22:20.763938 IP 64.23.247.40.22 > 198.96.84.204.57230: Flags [P.], seq 1573363743:1573363851, ack 1757078303, win 545, length 108
+18:22:20.763992 IP 64.23.247.40.22 > 198.96.84.204.57230: Flags [P.], seq 108:144, ack 1, win 545, length 36
+18:22:20.764025 IP 64.23.247.40.22 > 198.96.84.204.57230: Flags [P.], seq 144:196, ack 1, win 545, length 52
+18:22:20.764055 IP 64.23.247.40.22 > 198.96.84.204.57230: Flags [P.], seq 196:264, ack 1, win 545, length 68
+18:22:20.764086 IP 64.23.247.40.22 > 198.96.84.204.57230: Flags [P.], seq 264:332, ack 1, win 545, length 68
+18:22:20.764112 IP 64.23.247.40.22 > 198.96.84.204.57230: Flags [P.], seq 332:368, ack 1, win 545, length 36
+18:22:20.820130 IP 198.96.84.204.57230 > 64.23.247.40.22: Flags [.], ack 0, win 16383, length 0

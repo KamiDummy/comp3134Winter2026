@@ -1,0 +1,16 @@
+root@lamp-ubuntu-s-1vcpu-1gb-sfo3-01:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+18:18:58.399119 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 1573316387:1573316495, ack 1757077731, win 545, length 108
+	0x0000:  fe00 0000 0101 1a56 0e39 bc7a 0800 4510  .......V.9.z..E.
+	0x0010:  0094 3f74 4000 4006 a873 4017 f728 c660  ..?t@.@..s@..(.`
+	0x0020:  54cc 0016 df8e 5dc6 e723 68ba e0e3 5018  T.....]..#h...P.
+	0x0030:  0221 52f3 0000 f5d4 9290 b07c 2dc6 aae5  .!R........|-...
+	0x0040:  88ab e49e e858 6d5d 1306 3bfd c720 4635  .....Xm]..;...F5
+	0x0050:  917d 5349 2652 6426 0029 65bf 33a8 d8fd  .}SI&Rd&.)e.3...
+	0x0060:  c919 4593 23ed 4cdb 9c29 4cc5 f8e0 dda6  ..E.#.L..)L.....
+	0x0070:  7384 da19 09c1 40bf 4a1d ebce 0a40 b0f2  s.....@.J....@..
+	0x0080:  90e3 63fd 1548 a09e f663 5e09 3844 e667  ..c..H...c^.8D.g
+	0x0090:  9cd6 fad1 a90a 3853 3984 4faa 5b8d 1796  ......8S9.O.[...
+	0x00a0:  52f6                                     R.
+18:18:58.399252 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 108:264, ack 1, win 545, length 156

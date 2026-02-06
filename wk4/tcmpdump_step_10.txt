@@ -1,0 +1,8 @@
+root@lamp-ubuntu-s-1vcpu-1gb-sfo3-01:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+18:24:30.678227 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 1573375399:1573375507, ack 1757078843, win 545, length 108
+18:24:30.678352 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 108:144, ack 1, win 545, length 36
+18:24:30.678438 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 144:196, ack 1, win 545, length 52
+18:24:30.678491 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 196:264, ack 1, win 545, length 68
+18:24:30.678538 IP lamp-ubuntu-s-1vcpu-1gb-sfo3-01.ssh > 198.96.84.204.57230: Flags [P.], seq 264:332, ack 1, win 545, length 68
