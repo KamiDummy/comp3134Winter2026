@@ -1,0 +1,11 @@
+1) Valid English word in the form:
+When a valid English word is entered, the site loads a results page for that word and shows the dictionary definition. The input is handled properly and displayed as expected.
+
+2) Invalid English word after /browse/ in the URL:
+When an invalid word is entered directly in the URL, the site still loads a page but usually shows no proper definition or a fallback result. The site handles the unknown term without exposing errors.
+
+3) Entering <script>alert('hello')</script> in the form:
+The script is not executed. The site treats the input as text or safely handles it. This shows input filtering or output encoding is being used.
+
+4) Entering <script>alert('hello')</script> after term= in the URL:
+The script is not executed from the URL parameter. The site mitigates the issue by sanitizing or encoding the input instead of reflecting raw HTML/JavaScript.

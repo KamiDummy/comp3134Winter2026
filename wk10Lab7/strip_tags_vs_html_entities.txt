@@ -1,0 +1,3 @@
+strip_tags removes HTML and script tags from the input, so dangerous tags are deleted before output.
+htmlentities does not remove the input but converts special characters like < and > into safe text values, so the browser shows them as text instead of executing them.
+The main difference is that strip_tags removes markup, while htmlentities preserves the original input visually but makes it safe to display.
